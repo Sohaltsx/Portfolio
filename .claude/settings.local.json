@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:v4.brittanychiang.com)",
+      "WebFetch(domain:play.google.com)",
+      "WebFetch(domain:apps.apple.com)",
+      "Bash(perl:*)",
+      "Bash(sed -i '' 's|<div class=\"avatar-placeholder\">|<img src=\"avatar.jpg\" alt=\"Sandeep Singh\" class=\"avatar-img\" /><!-- |' /Users/sandeepsohal/Documents/GitHub/Portfolio/index.html)",
+      "Bash(sed -i '' 's|<div class=\"initials\">SS</div>||' /Users/sandeepsohal/Documents/GitHub/Portfolio/index.html)",
+      "Bash(sed -i '' 's|          </div><!-- |          -->|' /Users/sandeepsohal/Documents/GitHub/Portfolio/index.html)",
+      "Bash(python3:*)",
+      "Bash(sed -i '' 's|href=\"mailto:sohal.tsx@gmail.com\" class=\"resume-btn\">Get In Touch|href=\"https://www.upwork.com/freelancers/~01f685b22dd5766524\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"resume-btn\">Hire Me|g' /Users/sandeepsohal/Documents/GitHub/Portfolio/index.html)",
+      "Bash(sed -i '' 's|href=\"mailto:sohal.tsx@gmail.com\" class=\"resume-btn mobile-link\">Get In Touch|href=\"https://www.upwork.com/freelancers/~01f685b22dd5766524\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"resume-btn mobile-link\">Hire Me|g' /Users/sandeepsohal/Documents/GitHub/Portfolio/index.html)"
+    ]
+  }
+}
