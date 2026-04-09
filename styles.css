@@ -647,6 +647,7 @@ footer p a:hover { color: var(--green); }
 /* ── Responsive ──────────────────────────────────────────────────── */
 @media (max-width: 1080px) {
   main { padding: 0 100px; }
+  #hero { min-height: auto; padding: calc(var(--nav-height) + 60px) 0 80px; }
 }
 
 @media (max-width: 768px) {
@@ -659,6 +660,8 @@ footer p a:hover { color: var(--green); }
 
   .about-inner { grid-template-columns: 1fr; }
   .about-image-wrap { margin: 0 auto; }
+
+  #hero { min-height: auto; padding: calc(var(--nav-height) + 40px) 0 60px; }
 
   .experience-inner { flex-direction: column; }
   .tab-list { width: 100%; display: flex; overflow-x: auto; border-left: none; border-bottom: 2px solid var(--navy-light); scrollbar-width: none; -ms-overflow-style: none; }
