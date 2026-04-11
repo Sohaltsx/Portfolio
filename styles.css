@@ -654,7 +654,7 @@ footer p a:hover { color: var(--green); }
   main { padding: 0 25px; }
   header { padding: 0 25px; }
   section { padding: 80px 0; }
-  nav ol, .resume-btn { display: none; }
+  nav ol, nav .resume-btn { display: none; }
   .hamburger { display: flex; }
 
 
